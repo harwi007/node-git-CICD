@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('The Living Legend- One & only  Sidhu Moosewala!')
+  res.send('eat sleep hustle repeat!')
 })
 
 app.get('/status', (req, res) => {
